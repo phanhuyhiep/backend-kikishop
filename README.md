@@ -19,7 +19,7 @@ Cài đặt dependencies cho dự án:
 npm install
 ```
 
-Tạo file .env có nội dung được ví dụ trong file env-example
+Tạo file .env có nội dung được ví dụ trong file env-example.
 Cuối cùng dùng lệnh dưới để chạy dự án
 
 ```
