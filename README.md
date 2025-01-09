@@ -1,4 +1,4 @@
-# backend shop ban hang truc tuyen
+# backend shop bán hàng trực tuyền (shop quần áo kiki-shop)
 
 **document**
 https://nodejs.org/docs/latest/api/
@@ -34,14 +34,15 @@ Là các thông số đầu vào cần thiết để chạy dự án:
 
 | Tên biến môi trường | Giá trị    | Mô tả                               |
 | ------------------- | ---------- | ----------------------------------- |
-| PORT                | 80081      | Port mà server sẽ lắng nghe         |
-| SECRET_KEY          | SECRET_KEY | jwt secret key                      |
+| PORT| 80081 | Port mà server sẽ lắng nghe|
+| SECRET_KEY| SECRET_KEY | jwt secret key|
 
 ### 3.2 Các biến collection trong mongodb
 
-| Tên biến môi trường   | Giá trị                       | Mô tả                                     |
-| --------------------- | ------- ----------------------| ----------------------------------------- |
-| MONGO_URI             | mongodb://localhost:27017/    | url kết nối mongodb                       |
+| Tên biến môi trường | Giá trị                     | Mô tả               |
+| ------------------- | ----------------------------| --------------------|
+| MONGO_URI           |  mongodb://localhost:27017/ | url kết nối mongodb |
+
 
 **document**
 https://www.mongodb.com/docs/
