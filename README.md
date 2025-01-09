@@ -1,4 +1,4 @@
-# backend shop bán hàng trực tuyền (shop quần áo kiki-shop)
+# backend shop bán hàng trực tuyến (shop quần áo kiki-shop)
 
 **document**
 https://nodejs.org/docs/latest/api/
