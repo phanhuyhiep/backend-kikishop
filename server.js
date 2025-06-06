@@ -28,6 +28,10 @@ app.get('/', (req, res) => {
     return res.send('Start server success!')
 })
 
+app.get('/health', (req, res) => {
+  res.status(200).json({ status: 'OK', timestamp: new Date().toISOString() });
+});
+
 app.listen(PORT, () => {
     console.log(`App listening on port ${PORT}`)
 })
